@@ -1,10 +1,11 @@
 @app
-init
+deno-tools
 
 @http
 get /
 
-# @aws
-# profile default
-# region us-west-1
-  
+@tables
+data 
+  scopeID *String
+  dataID **String
+  ttl TTL
